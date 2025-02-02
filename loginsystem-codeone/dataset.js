@@ -14,7 +14,6 @@ class DataSet{
 	}
 	set_fill(ufill){this.user_fill=ufill}	 
 }
-
 //******************************* build describe ************************************************ 
 // 포트폴리오제시항목의 1. 
 //let d1 = new DataSet("개발환경구축")// 메뉴별 타이틀입니다. menu.js에서 설정되어 있어야 하며 menu0.url = "?menu=0" 의 숫자와 data_sets 의 배열 인덱스와 동일해야 합니다.
@@ -54,7 +53,6 @@ d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
 d2.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/file/d/1ld8YuNgPGtnD20cukjeBd6eaB8gwmfjS/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/103oR14x-LOcoHaqhYxVZhRioNtI7T_VqeAfydfy7JvY/edit?usp=drive_link"})
 // d2.set_content("테스트케이스를 작성합니다.")
 // d2.set_content("단위테스트를 작성합니다.")
-
 // d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
 
