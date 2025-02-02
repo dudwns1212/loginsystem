@@ -14,6 +14,7 @@ class DataSet{
 	}
 	set_fill(ufill){this.user_fill=ufill}	 
 }
+
 //******************************* build describe ************************************************ 
 // 포트폴리오제시항목의 1. 
 //let d1 = new DataSet("개발환경구축")// 메뉴별 타이틀입니다. menu.js에서 설정되어 있어야 하며 menu0.url = "?menu=0" 의 숫자와 data_sets 의 배열 인덱스와 동일해야 합니다.
