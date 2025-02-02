@@ -57,6 +57,7 @@ d2.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/fil
 // d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
 
+
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
 d3.set_content("회원가입구현")//서브타이틀
