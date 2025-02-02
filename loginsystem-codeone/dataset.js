@@ -99,3 +99,4 @@ d4.set_img(0,{imgtitle:"배치스케쥴",imgurl:"https://drive.google.com/file/d
 d4.set_img(0,{imgtitle:"배치줄력테스트",imgurl:"https://drive.google.com/file/d/1RplLIDwfMNKtZO-DS47lAlBd2MLOSByr/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
 d4.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d4)
+
