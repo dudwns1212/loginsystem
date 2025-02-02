@@ -57,15 +57,36 @@ d2.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/fil
 // d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
 
-
+//d3.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:""})//이미지타이틀
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
 d3.set_content("회원가입구현")//서브타이틀
+d3.set_img(0,{imgtitle:"가입폼",imgurl:"https://drive.google.com/file/d/1kx-8yv-ABvFN6A0MjMb2TfRi8g6hQ_Xd/view?usp=drive_link",imglog:"가입을 위한 폼",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"정보입력",imgurl:"https://drive.google.com/file/d/1GVtKZwcNt241KmsPBSxTyLXJ_5hosoXV/view?usp=drive_link",imglog:"회원 정보입력",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"송신코드",imgurl:"https://drive.google.com/file/d/11P0QZX8qhrwnVQRnWRaRUY3ayoF4ghuX/view?usp=drive_link",imglog:"정보 전송 코드",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/resources/static/signup.html"})//이미지타이틀
+d3.set_img(0,{imgtitle:"정보수신코드",imgurl:"https://drive.google.com/file/d/1YZNdy2s7X_zXIIMr20IbvnEwTtmCy5yi/view?usp=drive_link",imglog:"서버 수신 코드",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(0,{imgtitle:"dao코드",imgurl:"https://drive.google.com/file/d/11Iom_qwg_zrWtuSl7j0WIO7EAmutXBDG/view?usp=drive_link",imglog:"dao 객체",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOImpl.java"})//이미지타이틀
+d3.set_img(0,{imgtitle:"매퍼",imgurl:"https://drive.google.com/file/d/1yTwO1RmBLFfJ_wPGpJTDyJ6vprmE1aMm/view?usp=drive_link",imglog:"데이터베이스 쿼리",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
+d3.set_img(0,{imgtitle:"가입성공",imgurl:"https://drive.google.com/file/d/1IuZMNlzPMfIwjge8NhTioM4od_yl9m9E/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"데이터베이스",imgurl:"https://drive.google.com/file/d/1Z4P4FD3xlj5QeWQI8jSzWORuFqHwW_nR/view?usp=drive_link",imglog:"입력 성공 데이터베이스 저장 화면",sourceurl:""})//이미지타이틀
 d3.set_content("회원로그인구현")
-d3.set_content("회원리스트연동")
-d3.set_content("테스트케이스 작성")
-d3.set_content("목오브젝트생성 및 테스트 구현")
-d3.set_content("결과보고서 작성")
+d3.set_img(1,{imgtitle:"로그인폼",imgurl:"https://drive.google.com/file/d/1OWEjdJnNRYcBfZVyPBqRBvPcTL8OQsvV/view?usp=drive_link",imglog:"아이디와 비밀번호를 입력받는다",sourceurl:""})//이미지타이틀
+d3.set_img(1,{imgtitle:"서버수신",imgurl:"https://drive.google.com/file/d/1aU0azAk2sL06occ2frYIEdw5LqP1x_XA/view?usp=drive_link",imglog:"전송된 정보를 서버에서 인증한다.",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(1,{imgtitle:"데이터베이스 준비",imgurl:"https://drive.google.com/file/d/1GeI8DvxXbK6gbP1T-BdE7caOvo4cOUB9/view?usp=drive_link",imglog:"데이터베이스와 연동하여 로그인 인증한다.",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOImpl.java"})//이미지타이틀
+d3.set_img(1,{imgtitle:"성공 스냅샷",imgurl:"https://drive.google.com/file/d/17Dc5qaR8ZtOPsikMbbqlqzEwakbqZEgU/view?usp=drive_link",imglog:"로그인 성공 화면",sourceurl:""})//이미지타이틀
+d3.set_content("로그아웃구현")
+d3.set_img(2,{imgtitle:"로그인성공화면",imgurl:"https://drive.google.com/file/d/1lKWbipTgxFde3cRkPVhOopah2ECDa411/view?usp=drive_link",imglog:"로그인 된 화면이다.",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그아웃송신화면",imgurl:"https://drive.google.com/file/d/1e-wWTj6JKSWGjn8WNo02spuYRtxTjDlV/view?usp=drive_link",imglog:"로그아웃 버튼을 수행한다.",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그아웃수신화면",imgurl:"https://drive.google.com/file/d/1mzHOMVXSUH9v1E-MSW_fyynnXq9BBd3S/view?usp=drive_link",imglog:"세션을 해제한다.",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그아웃스냅샷",imgurl:"https://drive.google.com/file/d/1FX-Wwv6RWzu6xR13xfeRZwqMjARXcJMi/view?usp=drive_link",imglog:"로그아웃 처리된다.",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그아웃후이동",imgurl:"https://drive.google.com/file/d/1KqWqlxxdOafiUHuVFPYaaHYjgbXBU6Ht/view?usp=drive_link",imglog:"로그아웃후 기본페이지로 이동한다.",sourceurl:""})//이미지타이틀
+d3.set_content("회원리스트 연동")
+d3.set_img(3,{imgtitle:"로그인됨",imgurl:"https://drive.google.com/file/d/1kuBktjdLoy0NNcvjm7kn-YnpEXCfItPo/view?usp=drive_link",imglog:"현재 로그인 상태",sourceurl:""})//이미지타이틀
+d3.set_img(3,{imgtitle:"회원정보 요청",imgurl:"https://drive.google.com/file/d/1RLesVKXwkk7sQcEkhN7nRQPx5UgZHWNc/view?usp=drive_link",imglog:"로그인 사용자는 회원정보를 요청",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/resources/static/index.html"})//이미지타이틀
+d3.set_img(3,{imgtitle:"요청수신",imgurl:"https://drive.google.com/file/d/15sjOUz-PsJIZuRrV4ntqJLWLRhf7tMYK/view?usp=drive_link",imglog:"요청된 정보를 수신함",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(3,{imgtitle:"dao모델",imgurl:"https://drive.google.com/file/d/1Lvpf-IkomoaQNKMwvWX660iJgAOgfkmJ/view?usp=drive_link",imglog:"모델객체에 정보 전달",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOImpl.java"})//이미지타이틀
+d3.set_img(3,{imgtitle:"매퍼샷",imgurl:"https://drive.google.com/file/d/1F9Atp5bgKyCU5HegNKhX00_g8ldRAxmM/view?usp=drive_link",imglog:"데이터베이스쿼리를 수행하기위한 쿼리",sourceurl:"https://github.com/dudwns1212/loginsystem/blob/main/loginsystem-codeone/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
+d3.set_img(3,{imgtitle:"최종결과",imgurl:"https://drive.google.com/file/d/1iPSUc_6TVPri09vOKWLvu4yA93Zc8QL5/view?usp=drive_link",imglog:"회원 결과 화면 스냅샷",sourceurl:""})//이미지타이틀
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
 
@@ -73,8 +94,9 @@ data_sets.push(d3)
 let d4 = new DataSet("배치프로그램구현")//메인타이틀
 
 d4.set_content("배치스케줄구현")//서브타이틀
-
-d4.set_content("배치프로그램테스트 구현")
-
-d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
+d4.set_img(0,{imgtitle:"배치빌드",imgurl:"https://drive.google.com/file/d/1zWyp10paDLcgIqrn99AyvKCUqUZHk8os/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+d4.set_img(0,{imgtitle:"배치환경",imgurl:"https://drive.google.com/file/d/1MljTMsAm3z7qhUeBfXh4HSFrwTwIOe6E/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+d4.set_img(0,{imgtitle:"배치스케쥴",imgurl:"https://drive.google.com/file/d/1e0FvTh9hQMeKPwj8EUG4C0u-Q7jqiGIN/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+d4.set_img(0,{imgtitle:"배치줄력테스트",imgurl:"https://drive.google.com/file/d/1RplLIDwfMNKtZO-DS47lAlBd2MLOSByr/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+d4.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d4)
