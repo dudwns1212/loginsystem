@@ -89,8 +89,6 @@ d3.set_img(3,{imgtitle:"매퍼샷",imgurl:"https://drive.google.com/file/d/1F9At
 d3.set_img(3,{imgtitle:"최종결과",imgurl:"https://drive.google.com/file/d/1iPSUc_6TVPri09vOKWLvu4yA93Zc8QL5/view?usp=drive_link",imglog:"회원 결과 화면 스냅샷",sourceurl:""})//이미지타이틀
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
-
-
 // menu4 =============================================================
 let d4 = new DataSet("배치프로그램구현")//메인타이틀
 
